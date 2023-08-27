@@ -66,3 +66,16 @@ input {
     width: 180px;
     border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .poke-card {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .poke-stats div {
+    flex-direction: column;
+  }
+}
