@@ -40,7 +40,6 @@ input {
     top: 10px;
     z-index: -1;
 }
-@media(max-width: 768px){
 .img-container {
     position: relative;
     width: 180px;
@@ -66,4 +65,4 @@ input {
     width: 180px;
     border-radius: 50%;
 }
-}
+
