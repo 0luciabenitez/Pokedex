@@ -3,6 +3,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 600px) {
+  img {
+    max-width: 150px;
+  }
+}
+
 form {
     width: 200px;
     margin: 20px auto;
