@@ -66,3 +66,9 @@ input {
     border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+  .poke-stats div {
+    flex-direction: row;
+  }
+}
+
